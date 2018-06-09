@@ -40,3 +40,52 @@ Os arquivos da pasta *dev* são compilados e enviados para a pasta *dist* já mi
 * `leowp-button leowp-button__small`
 * `leowp-button leowp-button__medium`
 * `leowp-button leowp-button__large`
+
+### Grid
+* `leowp-grid` Classe pai do grid
+#### Opções do Grid
+* `leowp-grid__one`
+* `leowp-grid__two`
+* `leowp-grid__three`
+* `leowp-grid__four`
+* `leowp-grid__five`
+* `leowp-grid__six`
+#### Utilizaçaāo do Grid
+```html
+<div class="leowp-grid">
+    <div class="leowp-grid__one"></div>
+</div>
+
+<div class="leowp-grid">
+    <div class="leowp-grid__two"></div>
+    <div class="leowp-grid__two"></div>
+</div>
+
+<div class="leowp-grid">
+    <div class="leowp-grid__three"></div>
+    <div class="leowp-grid__three"></div>
+</div>
+
+<div class="leowp-grid">
+    <div class="leowp-grid__four"></div>
+    <div class="leowp-grid__four"></div>
+    <div class="leowp-grid__four"></div>
+    <div class="leowp-grid__four"></div>
+</div>
+
+<div class="leowp-grid">
+    <div class="leowp-grid__five"></div>
+    <div class="leowp-grid__five"></div>
+    <div class="leowp-grid__five"></div>
+    <div class="leowp-grid__five"></div>
+    <div class="leowp-grid__five"></div>
+</div>
+
+<div class="leowp-grid">
+    <div class="leowp-grid__six"></div>
+    <div class="leowp-grid__six"></div>
+    <div class="leowp-grid__six"></div>
+    <div class="leowp-grid__six"></div>
+    <div class="leowp-grid__six"></div>
+</div>
+```

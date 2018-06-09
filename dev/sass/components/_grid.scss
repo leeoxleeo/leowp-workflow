@@ -1,0 +1,74 @@
+.leowp-grid{
+	display: flex;
+	width: 100%;
+	align-items: baseline;
+	justify-content: space-between;
+	flex-wrap: wrap;
+
+	&__one{
+		flex-basis: 100%;
+		padding: 10px;
+	}
+
+	&__two{
+		flex-basis: 49%;
+		padding: 10px;
+		@include breakpoint('mobile'){
+			flex-basis: 100%;
+			margin-bottom: $mainGutter / 2;
+		}
+	}
+
+	&__three {
+		flex-basis: 32%;
+		padding: 10px;
+		@include breakpoint('mobile') {
+			flex-basis: 100%;
+			margin-bottom: $mainGutter / 2;
+		}
+		@include breakpoint('tablet'){
+			flex-basis: 49%;
+			margin-bottom: $mainGutter / 2;
+		}
+	}
+
+	&__four {
+		flex-basis: 23.5%;
+		padding: 10px;
+		@include breakpoint('mobile') {
+			flex-basis: 100%;
+			margin-bottom: $mainGutter / 2;
+		}
+		@include breakpoint('tablet'){
+			flex-basis: 49%;
+			margin-bottom: $mainGutter / 2;
+		}
+	}
+
+	&__five {
+		flex-basis: 18.5%;
+		padding: 10px;
+		@include breakpoint('mobile') {
+			flex-basis: 100%;
+			margin-bottom: $mainGutter / 2;
+		}
+		@include breakpoint('tablet'){
+			flex-basis: 49%;
+			margin-bottom: $mainGutter / 2;
+		}
+	}
+
+	&__six {
+		flex-basis: 15%;
+		padding: 10px;
+		@include breakpoint('mobile') {
+			flex-basis: 100%;
+			margin-bottom: $mainGutter / 2;
+		}
+		@include breakpoint('tablet'){
+			flex-basis: 49%;
+			margin-bottom: $mainGutter / 2;
+		}
+	}
+
+}
