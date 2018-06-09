@@ -1,0 +1,49 @@
+{
+    "name": "leowp_workflow",
+    "version": "1.0.0",
+    "description": "Framework Wordpress para a criação de temas personalizados",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/leeoxleeo/leowp_workflow"
+    },
+    "keywords": [
+        "wordpress",
+        "leowps",
+        "wordpress framework"
+    ],
+    "author": "Leonardo Pereira <leonardo@leowpdeveloper.com.br>",
+    "license": "ISC",
+    "homepage": "https://github.com/leeoxleeo/leowp_workflow",
+    "devDependencies": {
+        "babelify": "^7.3.0",
+        "browser-sync": "^2.18.13",
+        "browserify": "^14.4.0",
+        "composer": "^0.14.2",
+        "gulp": "^3.9.1",
+        "gulp-autoprefixer": "^4.0.0",
+        "gulp-concat": "^2.6.1",
+        "gulp-if": "^2.0.2",
+        "gulp-imagemin": "^3.3.0",
+        "gulp-livereload": "^3.8.1",
+        "gulp-notify": "^3.0.0",
+        "gulp-options": "^1.1.1",
+        "gulp-plumber": "^1.1.0",
+        "gulp-rename": "^1.2.2",
+        "gulp-sourcemaps": "^2.6.1",
+        "gulp-strip-debug": "^1.1.0",
+        "gulp-uglify": "^3.0.0",
+        "gulp-uglifycss": "^1.0.8",
+        "gulp-util": "^3.0.8",
+        "gulp.spritesmith": "^6.7.0",
+        "sprity": "^1.0.8",
+        "vinyl-buffer": "^1.0.0",
+        "vinyl-source-stream": "^1.1.0"
+    },
+    "dependencies": {
+        "gulp-sass": "^3.1.0"
+    }
+}
