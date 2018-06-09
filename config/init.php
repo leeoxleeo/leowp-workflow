@@ -1,11 +1,10 @@
 <?php
 /**
- * @package LeoWP-Workflow
- * @author Leonardo Pereira <leonardo@leowpdeveloper.com.br>
- */
+* @package LeoWP-Workflow
+* @author Leonardo Pereira <leonardo@leowpdeveloper.com.br>
+*/
 ?><?php
-define('SITE_HOME', get_home_url());
-define('SITE_URL', get_stylesheet_directory_uri()); 
-define('SITE_NAME', get_bloginfo('name'));
-define('SITE_SUBNAME', get_bloginfo('description'));
+require_once get_stylesheet_directory() . '/config/setup/setup.php';
+require_once get_stylesheet_directory() . '/config/setup/enqueue.php';
+require_once get_stylesheet_directory() . '/config/setup/cleaner.php';
 ?>
