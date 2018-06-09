@@ -15,6 +15,7 @@ Framework Wordpress para a criação de temas com foco em performance
 * Gulp
 
 ## Configuração do projeto
+Baixe o framework e arraste para dentro da pasta *wp-content/themes* dentro do seu Wordpress
 
 ### Utilização do Gulp
 + `npm install` para a instalação dos pacotes necessários para o funcionamento do gulp
@@ -50,7 +51,7 @@ Os arquivos da pasta *dev* são compilados e enviados para a pasta *dist* já mi
 * `leowp-grid__four`
 * `leowp-grid__five`
 * `leowp-grid__six`
-#### Utilizaçaāo do Grid
+#### Utilizaçāo do Grid
 ```html
 <div class="leowp-grid">
     <div class="leowp-grid__one"></div>
@@ -62,6 +63,7 @@ Os arquivos da pasta *dev* são compilados e enviados para a pasta *dist* já mi
 </div>
 
 <div class="leowp-grid">
+    <div class="leowp-grid__three"></div>
     <div class="leowp-grid__three"></div>
     <div class="leowp-grid__three"></div>
 </div>
