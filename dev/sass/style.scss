@@ -1,0 +1,14 @@
+/** =========================
+* Configurações Gerais * 
+========================= **/
+@import 'general/config';
+@import 'general/initialize';
+@import 'general/reset';
+
+/** =========================
+* Components * 
+========================= **/
+@import 'components/helpers';
+@import 'components/containers';
+@import 'components/buttons';
+@import 'components/typography';

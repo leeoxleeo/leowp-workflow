@@ -1,0 +1,43 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin-bottom: $mainGutter / 2;
+    line-height: 1.2;
+}
+
+h1{
+    font-size: $sizeHeadingOne;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+h2{
+    font-weight: 300;
+    font-size: $sizeHeadingTwo;
+}
+
+h3{
+    font-size: $sizeHeadingThree;
+}
+
+h4{
+    font-size: $sizeHeadingFour;
+}
+
+h5 {
+    font-size: $sizeHeadingFive;
+}
+
+h6 {
+    font-size: $sizeHeadingSix;
+}
+
+p{
+    display: block;
+    line-height: 1.4;
+    font-size: $sizeNormal;
+    margin-bottom: $mainGutter / 2;
+}

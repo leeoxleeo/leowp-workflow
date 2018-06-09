@@ -1,0 +1,93 @@
+.leowp-button{
+    display: inline-block;
+    
+    width: 140px;
+    height: 40px;
+    line-height: 36px;
+    
+    text-align: center;
+    text-transform: uppercase;
+    
+    font-size: $sizeSmall;
+    font-weight: 500;
+    
+    letter-spacing: 1px;
+    
+    border-radius: 3px;
+    border-bottom: 5px solid transparent;
+    
+    background: $colorBlack;
+    border-color: darken($colorBlack, 4%);
+    color: $colorWhite;
+    transition: all linear .2s;
+    &:hover {
+        background: darken($colorBlack, 4%);
+    }
+
+    &__small {
+        width: 10px;
+        height: 33px;
+        line-height: 29px;
+    }
+    
+    &__medium{
+        width: 200px;
+        height: 50px;
+        line-height: 46px;
+    }
+    
+    &__large {
+        width: 290px;
+        height: 70px;
+        line-height: 66px;
+    }
+    
+    &__red{
+        background: $colorRed;
+        border-color: darken($colorRed, 4%);
+        color: $colorWhite;
+        &:hover{
+            background: darken($colorRed, 4%);
+        }
+    }
+    &__blue{
+        background: $colorBlue;
+        border-color: darken($colorBlue, 4%);
+        color: $colorWhite;
+        &:hover {
+            background: darken($colorBlue, 4%);
+        }
+    }
+    &__green {
+        background: $colorGreen;
+        border-color: darken($colorGreen, 4%);
+        color: $colorWhite;
+        &:hover {
+            background: darken($colorGreen, 4%);
+        }
+    }
+    &__yellow {
+        background: $colorYellow;
+        border-color: darken($colorYellow, 4%);
+        color: $colorWhite;
+        &:hover {
+            background: darken($colorYellow, 4%);
+        }
+    }
+    &__purple {
+        background: $colorPurple;
+        border-color: darken($colorPurple, 4%);
+        color: $colorWhite;
+        &:hover {
+            background: darken($colorPurple, 4%);
+        }
+    }
+    &__orange {
+        background: $colorOrange;
+        border-color: darken($colorOrange, 4%);
+        color: $colorWhite;
+        &:hover {
+            background: darken($colorOrange, 4%);
+        }
+    }
+}

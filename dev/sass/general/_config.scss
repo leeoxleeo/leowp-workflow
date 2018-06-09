@@ -1,0 +1,88 @@
+/**
+===========================
+========== Cores ==========
+===========================
+*/
+$colorRed: #E74C3C;
+$colorBlue: #3498DB;
+$colorGreen: #39B89A;
+$colorOrange: #FD7A5A;
+$colorYellow: #F0C94D;
+$colorPurple: #9369C0;
+$colorBlack: #303030;
+$colorWhite: #F9F9F9;
+
+/**
+===========================
+========== Fontes =========
+===========================
+*/
+$fontMain: 'Open Sans', sans-serif;
+
+/**
+===========================
+========= Tamanhos ========
+===========================
+*/
+$sizeSmall: 0.875em;
+$sizeNormal: 1em;
+$sizeHeadingOne: 4em;
+$sizeHeadingTwo: 3em;
+$sizeHeadingThree: 2.4em;
+$sizeHeadingFour: 2.1em;
+$sizeHeadingFive: 1.7em;
+$sizeHeadingSix: 1.4em;
+
+/**
+===========================
+======= Espaçamentos ======
+===========================
+*/
+$mainGutter: 1.5em;
+
+/**
+===========================
+========== Mixins =========
+===========================
+*/
+@mixin breakpoint($point, $value: 0) {
+    @if $point==mobile {
+        @media only screen and (min-width: 100px) and (max-width: 767px) {
+            @content;
+        }
+    }
+    @else if $point==tablet {
+        @media only screen and (min-width: 768px) and (max-width: 1080px) {
+            @content;
+        }
+    }
+    @else if $point==desktop {
+        @media only screen and (min-width: 1081px) and (max-width: 5000px) {
+            @content;
+        }
+    }
+    @else if $point==bigdesktop {
+        @media only screen and (min-width: 1400px) and (max-width: 5000px) {
+            @content;
+        }
+    }
+    @else {
+        @media only screen and ($point: $value) {
+            @content;
+        }
+    }
+}
+
+@mixin hiddenHeading {
+    font-size: 0;
+    width: 1px;
+    height: 1px;
+    display: inline-block;
+    overflow: hidden;
+    position: absolute !important;
+    border: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    clip: rect(1px 1px 1px 1px); // for Internet Explorer
+    clip: rect(1px, 1px, 1px, 1px);
+}
