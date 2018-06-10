@@ -1,15 +1,12 @@
 .leowp-button{
     display: inline-block;
     
-    width: 140px;
-    height: 40px;
-    line-height: 36px;
-    
     text-align: center;
     text-transform: uppercase;
     
     font-size: $sizeSmall;
     font-weight: 500;
+    padding: 10px;
     
     letter-spacing: 1px;
     
@@ -25,21 +22,15 @@
     }
 
     &__small {
-        width: 10px;
-        height: 33px;
-        line-height: 29px;
+        padding: 5px 10px;
     }
     
     &__medium{
-        width: 200px;
-        height: 50px;
-        line-height: 46px;
+        padding: 15px 25px;
     }
     
     &__large {
-        width: 290px;
-        height: 70px;
-        line-height: 66px;
+        padding: 25px 35px;
     }
     
     &__red{

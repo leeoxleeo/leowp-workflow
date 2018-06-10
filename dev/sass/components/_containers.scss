@@ -1,0 +1,10 @@
+.leowp-container{
+	width: 100%;
+	float: left;
+	position: relative;
+	&__center{
+		margin: 0 auto;
+		max-width: 1440px;
+		width: 95%;
+	}
+}

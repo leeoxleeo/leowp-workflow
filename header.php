@@ -12,33 +12,35 @@
 </head>
 <body <?php body_class(); ?>>
 
-<header class="leowp-header" itemscope itemtype="http://schema.org/WPHeader">
+<header class="leowp-header leowp-container" itemscope itemtype="http://schema.org/WPHeader">
+    <div class="leowp-container__center">
 
-    <div class="leowp-header__logo">
+        <div class="leowp-header__logo">
+            <?php
+            /** 
+             * verifica se o logo foi adicionado pelo painel do wordpress 
+             * caso não tenha logo, o nome do site será mostrado 
+            */ 
+            if( has_custom_logo() ):
+                the_custom_logo();
+            else:
+                echo '<a href="'. SITE_HOME . '" class="leowp-header__logo--brand" title="' . SITE_NAME . '">' . SITE_NAME . '</a>';  
+            endif;        
+            ?>
+        </div>
+
+        <nav class="leowp-header__navigation">
         <?php
-        /** 
-         * verifica se o logo foi adicionado pelo painel do wordpress 
-         * caso não tenha logo, o nome do site será mostrado 
-        */ 
-        if( has_custom_logo() ):
-            the_custom_logo();
-        else:
-            echo '<a href="'. SITE_HOME . '" class="leowp-header__logo--brand" title="' . SITE_NAME . '">' . SITE_NAME . '</a>';  
-        endif;        
-        ?>
+            if (has_nav_menu('primary')) :
+                wp_nav_menu(array(
+                'theme_location' => 'primary',
+                'menu_id' => 'primary-menu',
+                'menu_class' => 'leowp-header__navigation--menu',
+                'items_wrap' => '<ul class="leowp-header__navigation--menu">%3$s</ul>',
+            ));
+            endif;
+            ?> 
+        </nav>
+        
     </div>
-
-    <nav class="leowp-header__navigation">
-       <?php
-        if (has_nav_menu('primary')) :
-            wp_nav_menu(array(
-            'theme_location' => 'primary',
-            'menu_id' => 'primary-menu',
-            'menu_class' => 'leowp-header__navigation--menu',
-            'items_wrap' => '<ul class="leowp-header__navigation--menu">%3$s</ul>',
-        ));
-        endif;
-        ?> 
-    </nav>
-
 </header>
