@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<main class="leowp-home">
+<main class="leowp-single">
 	
 	<section class="leowp-container">
 		<div class="leowp-container__center">
@@ -10,14 +10,16 @@
 				<p class="leowp-heading__tagline">Conteúdos recentes do blog</p>
 			</header>
 
-			<div class="leowp-loop leowp-grid">
-				<?php if( have_posts() ): ?>
-					<?php while( have_posts() ): ?>
+			<div class="leowp-loop">
+				<?php if (have_posts()) : ?>
+					<?php while (have_posts()) : ?>
 						<?php the_post(); ?>
-						<?php get_template_part( 'content/content-home' ); ?>
+						<?php get_template_part('content/content-single'); ?>
 					<?php endwhile; ?>		
 				<?php endif; ?>		
 			</div>
+
+			<?php get_sidebar(); ?>
 
 		</div>
 	</section>
