@@ -15,7 +15,7 @@ Framework Wordpress para a criação de temas com foco em performance
 * Gulp
 
 ## Configuração do projeto
-Baixe o framework e arraste para dentro da pasta *wp-content/themes* dentro do seu Wordpress
+Baixe o framework no formato .zip e após extrair, arraste para dentro da pasta *wp-content/themes* dentro do seu Wordpress
 
 ### Utilização do Gulp
 + `npm install` para a instalação dos pacotes necessários para o funcionamento do gulp
