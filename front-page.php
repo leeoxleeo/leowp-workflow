@@ -1,4 +1,9 @@
-<?php get_header(); ?>
+<?php 
+/**
+ * Homepage do site
+ * O arquivo front-page.php substitui o arquivo index.php como a página inicial do seu site
+ */
+?><?php get_header(); ?>
 
 <main class="leowp-home">
 	
