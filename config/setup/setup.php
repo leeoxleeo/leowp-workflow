@@ -7,7 +7,7 @@
     if (!function_exists('leowpThemeSetup')) :
         function leowpThemeSetup()
     {
-        load_theme_textdomain('leowp');
+        load_theme_textdomain('leowp-workflow');
       /* Suportes necessários para o funcionamento do tema */
       // adiciona o título da página automaticamente
         add_theme_support('title-tag');
@@ -49,7 +49,7 @@
         add_theme_support('customize-selective-refresh-widgets');
       // registro do menu principal do tema
         register_nav_menus(array(
-            'primary' => esc_html__('Menu Principal', 'leowp'),
+            'primary' => esc_html__('Menu Principal', 'leowp-workflow'),
         ));
     }
     add_action('after_setup_theme', 'leowpThemeSetup');
