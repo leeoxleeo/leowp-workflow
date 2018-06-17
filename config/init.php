@@ -7,4 +7,5 @@
 require_once get_stylesheet_directory() . '/config/setup/setup.php';
 require_once get_stylesheet_directory() . '/config/setup/enqueue.php';
 require_once get_stylesheet_directory() . '/config/setup/cleaner.php';
+require_once get_stylesheet_directory() . '/config/setup/widgets.php';
 ?>
