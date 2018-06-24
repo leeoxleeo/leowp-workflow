@@ -27,6 +27,36 @@
 		</div>
 	</section>
 
+	<section class="leowp-container">
+		<div class="leowp-container__center">
+			
+			<div class="leowp-form">
+				<label class="leowp-form__label">
+					<span class="leowp-form__text">Exemplo de Input</span>
+					<input class="leowp-form__input" placeholder="Placeholder" />
+				</label>
+				<label class="leowp-form__label">
+					<span class="leowp-form__text">Exemplo de Input</span>
+					<input class="leowp-form__input" placeholder="Placeholder" />
+				</label>
+				<label for="" class="leowp-form__label">
+					<span class="leowp-form__text">Exemplo de Select</span>
+					<select name="" id="" class="leowp-form__select">
+						<option value="">Option</option>
+						<option value="">Option</option>
+						<option value="">Option</option>
+						<option value="">Option</option>
+					</select>
+				</label>
+				<label class="leowp-form__label">
+					<span class="leowp-form__text">Exemplo de Textarea</span>
+					<textarea name="" id="" cols="30" rows="10" class="leowp-form__textarea"></textarea>
+				</label>
+			</div>
+
+		</div>
+	</section>
+
 </main>  
 
 <?php get_footer(); ?>

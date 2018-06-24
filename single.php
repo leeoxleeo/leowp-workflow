@@ -4,7 +4,6 @@
 	
 	<section class="leowp-container">
 		<div class="leowp-container__center">
-			
 
 			<div class="leowp-loop">
 				<?php if (have_posts()) : ?>

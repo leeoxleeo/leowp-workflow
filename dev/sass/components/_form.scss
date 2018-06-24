@@ -1,0 +1,37 @@
+.leowp-form{
+	float: left;
+	width: 100%;
+	position: relative;
+
+	&__label{
+		display: block;
+		width: 100%;
+		position: relative;
+		margin-bottom: $mainGutter;
+	}
+
+	&__text{
+		font-size: $sizeSmall;
+		text-transform: uppercase;
+		display: block;
+	}
+
+	&__input,
+	&__textarea,
+	&__select{
+		width: 100%;
+		max-width: 100%;
+		display: block;
+		padding: 5px;
+		outline: 0;
+		border: 1px solid #ECECEC;
+		border-radius: 3px;
+	}
+
+	&__textarea{
+		max-height: 200px;
+		height: 200px;
+		min-height: 200px;
+		min-width: 100%;
+	}
+}
