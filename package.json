@@ -12,8 +12,10 @@
     },
     "keywords": [
         "wordpress",
-        "leowps",
-        "wordpress framework"
+        "leowps_workflow",
+        "wordpress framework",
+        "wordpress theme",
+        "wordpress gulp"
     ],
     "author": "Leonardo Pereira <leonardo@leowpdeveloper.com.br>",
     "license": "ISC",
