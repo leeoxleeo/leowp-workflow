@@ -41,6 +41,16 @@ Os arquivos da pasta *dev* são compilados e enviados para a pasta *dist* já mi
 * `leowp-button leowp-button__small`
 * `leowp-button leowp-button__medium`
 * `leowp-button leowp-button__large`
+#### Utilização dos botões
+```html
+<a href="leowp-button">Button</a>    
+<a href="leowp-button leowp-button__small">Button Small</a>    
+<a href="leowp-button leowp-button__medium">Button Medium</a>    
+<a href="leowp-button leowp-button__large">Button Large</a> 
+
+<a href="leowp-button leowp-button__red">Button Red</a>    
+<a href="leowp-button leowp-button__medium leowp-button__red">Button Medium Red</a>    
+```
 
 ### Grid
 * `leowp-grid` Classe pai do grid
