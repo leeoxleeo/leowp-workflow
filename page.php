@@ -4,11 +4,6 @@
 	
 	<section class="leowp-container">
 		<div class="leowp-container__center">
-			
-			<header class="leowp-heading">
-				<h2 class="leowp-heading__title">Últimos Posts</h2>
-				<p class="leowp-heading__tagline">Conteúdos recentes do blog</p>
-			</header>
 
 			<div class="leowp-loop">
 				<?php if (have_posts()) : ?>
