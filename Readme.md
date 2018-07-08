@@ -1,6 +1,6 @@
 # LeoWP Workflow
 
-Framework Wordpress para a criação de temas com foco em performance
+Framework Wordpress de fácil entendimento para a criação de temas como foco em performace e otimização.
 
 ## Autor
 * Leonardo Pereira

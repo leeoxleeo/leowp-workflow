@@ -106,7 +106,7 @@ gulp.task('default', ['styles', 'js', 'images'], function () {
     gulp.src(jsURL)
         .pipe(errorHandler())
         .pipe(notify({
-            message: 'Assets Compiled!'
+            message: 'Arquivos Compilados!'
         }));
 });
 

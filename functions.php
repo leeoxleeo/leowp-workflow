@@ -8,4 +8,6 @@ define('SITE_HOME', get_home_url());
 define('SITE_URL', get_stylesheet_directory_uri());
 define('SITE_NAME', get_bloginfo('name'));
 define('SITE_SUBNAME', get_bloginfo('description'));
+
+/** Carrega o arquivo de configurações do tema */
 require_once dirname(__FILE__) . '/config/init.php';
