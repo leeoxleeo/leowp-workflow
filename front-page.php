@@ -6,7 +6,7 @@
 ?><?php get_header(); ?>
 
 <main class="leowp-home">
-	
+
 	<section class="leowp-container">
 		<div class="leowp-container__center">
 			
