@@ -103,7 +103,13 @@ Os arquivos da pasta *dev* são compilados e enviados para a pasta *dist* já mi
 ```
 
 ### Forms
-```
+* `leowp-form` classe para o formulário
+* `leowp-form__label` classe para a label do formulário.
+* `leowp-form__input` classe para o input do formulário.
+* `leowp-form__textarea` classe para o textarea do formulário.
+* `leowp-form__select` classe para o select do formulário.
+#### Utilização das classes do formulário.
+```html
 <form class="leowp-form">
     <label class="leowp-form__label">
         <span class="leowp-form__text">Name:</span>
